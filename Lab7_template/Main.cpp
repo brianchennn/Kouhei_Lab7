@@ -27,9 +27,8 @@ int main() {
 			char op;
 			int val;
 			int index;
-
+			//List.Print();
 			File >> op;
-
 			switch (op)
 			{
 			case 'b':

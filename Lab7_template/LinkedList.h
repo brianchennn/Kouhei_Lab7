@@ -6,9 +6,9 @@ struct ListNode
 {
 	int val;
 	ListNode* next;
-	
-	ListNode() : val(0), next(NULL) {};
-	ListNode(int x) : val(x), next(NULL) {};
+	ListNode* pre;
+	ListNode() : val(0), next(NULL),pre(NULL) {};
+	ListNode(int x) : val(x), next(NULL),pre(NULL) {};
 };
 
 class LinkedList
@@ -26,4 +26,5 @@ public:
 
 private:
 	ListNode* Head;
+	ListNode* Tail;
 };
